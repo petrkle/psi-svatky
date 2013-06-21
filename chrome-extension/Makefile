@@ -1,6 +1,6 @@
 help:
-	@echo "help     - napoveda"
-	@echo "dist     - vytvori archiv pro nahrani do google play"
+	@echo "help     - this help"
+	@echo "dist     - create zip file for loading to Chrome store"
 
 dist:
-	zip -R ../psi-svatky.zip * -x Makefile
+	zip -r ../psi-svatky.zip * -x Makefile
