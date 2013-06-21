@@ -1,0 +1,24 @@
+{
+  "extName": {
+    "message": "Psí svátky",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Kalendář psích svátků.",
+    "description": "Extension description"
+  },
+  "bark": {
+    "message": "Haf",
+    "description": "Dog sound"
+  },
+  "todayDate": {
+    "message": "Dnes je $date$ a svátek má:",
+    "description": "Today is",
+		"placeholders": {
+			"date": {
+				"content": "$1",
+				"example": "1. 1. 1990"
+			}
+		}
+  }
+}

@@ -1,0 +1,2 @@
+RewriteEngine	on
+RewriteRule ^svatek.xml$ svatek.php [L,QSA]

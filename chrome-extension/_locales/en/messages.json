@@ -1,0 +1,24 @@
+{
+  "extName": {
+    "message": "Dog holidays",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Dog holidays calendar.",
+    "description": "Extension description"
+  },
+  "bark": {
+    "message": "Bark",
+    "description": "Dog sound"
+  },
+  "todayDate": {
+    "message": "Today is $date$ and celebrated:",
+    "description": "Today is",
+		"placeholders": {
+			"date": {
+				"content": "$1",
+				"example": "1. 1. 1990"
+			}
+		}
+  }
+}
