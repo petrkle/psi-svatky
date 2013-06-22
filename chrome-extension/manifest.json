@@ -1,20 +1,21 @@
 {
   "name": "__MSG_extName__",
-  "version": "0.9",
+  "version": "1.0",
   "manifest_version": 2,
   "description": "__MSG_extDesc__",
-	"icons": { "16": "pes16.png",
-						 "48": "pes48.png",
-						"128": "pes128.png" },
+	"icons": { "16": "dog16.png",
+						 "48": "dog48.png",
+						"128": "dog128.png" },
   "browser_action": {
-    "default_icon": "pes19.png",
+    "default_icon": "dog19.png",
     "default_popup": "popup.html"
   },
   "permissions": [
     "http://petr.kle.cz/"
   ],
 "web_accessible_resources": [
-    "pes48.png"
+    "dog48.png",
+		"foot.png"
   ],
 	"default_locale": "cs"
 }
