@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$('#todayDate').text(chrome.i18n.getMessage("todayDate",d.getDate()+". "+(1 + d.getMonth()) + ". " + d.getFullYear()));
 
 	var req = new XMLHttpRequest();
-	req.open('GET','http://petr.kle.cz/psi-svatky/'+("0" + (d.getMonth() + 1)).slice(-2)+'/'+("0" + d.getDate()).slice(-2)+'.xml',true);
+	req.open('GET','https://petr.kle.cz/psi-svatky/'+("0" + (d.getMonth() + 1)).slice(-2)+'/'+("0" + d.getDate()).slice(-2)+'.xml',true);
 	req.onload = showEvents;
 	req.send(null);
 
